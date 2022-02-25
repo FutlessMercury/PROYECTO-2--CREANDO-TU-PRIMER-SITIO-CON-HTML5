@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background-color: #AFDEE4;
+}
+
+header
+{
+    background-image: url("../imagenes/banner_index.png");
+}
+.banner
+{
+    height: 600px;
+   
+}
+footer
+{
+    background-color:#F22E8A;
+    height: 240px;
+    
+
+
+}
+
+section
+{
+    background-color:#FFD008;
+}
+
+.menu
+{
+    background-color: #333333;
+
+   
+}
+
+.imagen1
+{
+    width: 40%;
+    margin:auto;
+    display:block;
+    border-radius: 15px;
+}
+
+.imagenmuestra
+{
+    width: 40%;
+    margin:auto;
+    display:block;
+    border-radius: 15px;
+}
+.logounach1
+{
+    width: 10%;
+    margin:auto;
+    display:flex;
+    justify-content: right;
+    border-radius: 10px;
+    
+}
+
+a
+{
+    text-align: center;
+    font-family:'Comic Sans MS';/*Tipo de letra*/
+    font-size: 24px;/*tamaño de la letra*/
+    height: 70px;/*alura */
+    background-color: #333333;/*color de fondo */
+    display: block;
+    border-left: 12px solid #FFFFFF;
+    border-right:7px solid #FFFFFF ;
+    padding-left: 15px  ; /*separación izquierda del texto */
+    color:#FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    
+    
+}
+
+a:hover
+{
+    /*parte de la animacion de la pagina */
+    margin-left: 10px; /*separación del lado izquierdo */
+    color:#333333;/*color de letra; en mi caso no se ve reflejado por que defini el color del texto desde html */
+    background-color: #CCCCCC; /*color de fondo */
+    box-shadow: 10px 10px 20px #3d1c02; /*color de sombra */
+    transform: rotate(4deg);/*movimiento de rotación */
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+
+
+.div1
+{
+    font-family:'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;/*color del texto*/
+    height:100%;
+    height: 100%;
+    padding:20px 10px 20px 40px;
+    margin:10px;
+    border: 1px solid #FFFFFF;
+    background:linear-gradient(150deg,#DCE019,#F89746,#ED297B);
+    background-size: 400%  300%;
+    animation: BgGradient 5s ease infinite;
+    border-radius: 15px;
+    border:solid 2px #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 2px 2px 5px #333333;
+}
+/*animar fondo de colores*/
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+    
+}
+
+.div2
+{
+    font-family:'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;/*color del texto*/
+    height:100%;
+    height: 100%;
+    padding:20px 10px 20px 40px;
+    margin:10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    border:solid 2px #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 2px 2px 5px #333333;
+    background:linear-gradient(150deg,#DCE019,#F89746,#ED297B);
+    background-size: 400%  300%;
+    animation: BgGradient 5s ease infinite;
+    
+
+}
+
+.Titulo
+{
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+}
+
+.pie
+{
+    font-family: 'Comic Sans MS';
+    color: #FFFFFF;
+}
